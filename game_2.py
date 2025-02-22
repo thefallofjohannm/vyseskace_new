@@ -41,7 +41,7 @@ class Game:
         wav_file_2 = BytesIO(wav_data_2)
         self.fail_sound = pygame.mixer.Sound(wav_file_2)
 
-        with open('Stinger_Success6.wav', 'rb') as wav_file_3:
+        with open('Stinger_Success6.mp3', 'rb') as wav_file_3:
             wav_data_3 = wav_file_3.read()
         wav_file_3 = BytesIO(wav_data_3)
         self.collect_sound = pygame.mixer.Sound(wav_file_3)

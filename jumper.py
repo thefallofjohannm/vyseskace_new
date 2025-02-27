@@ -53,7 +53,7 @@ class Jumper(pygame.sprite.Sprite):
 
 
     def stop_movement(self):
-        self.velocity = pygame.Vector2(0, 0)
+        self.velocity = pygame.Vector2(0, self.velocity.y)
 
 
     def go_left(self):
